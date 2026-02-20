@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbaitok"
+version = "0.0.1"
+authors = [
+  { name="module-based-ai", email="module-based-ai@gmail.com" },
+]
+description = "A small and fast tokenizer"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/module-based-ai/tokenizer"
+Issues = "https://github.com/module-based-ai/tokenizer/issues"
